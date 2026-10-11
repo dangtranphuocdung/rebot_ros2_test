@@ -121,7 +121,7 @@ class DemoMoveTo(Node):
                 self._latest_joint_state.name,
                 self._latest_joint_state.position,
             )
-            if not name.startswith("gripper_")
+            if not name.startswith("gripper_") and not name.startswith("finger")
         ]
         return [name for name, _ in pairs], np.array(
             [position for _, position in pairs],
