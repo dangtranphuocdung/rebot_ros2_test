@@ -8,3 +8,5 @@ __pycache__/
 *.egg-info/
 info
 third_party/
+mobileclip2_b.ts
+*.pt
